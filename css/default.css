@@ -57,24 +57,24 @@ opacity:0.7f;
 }
 
 .btn-reset{
-  background-color:lightcoral;
+  background-color:lightgreen;
 }
 
 #ingredient{
-  border:2px solid lightcoral;
+  border:2px solid lightgreen;
   border-collapse:collapse;
 }
 
 th{
-  border:1px solid lightcoral;
-  background-color:mistyrose;
+  border:1px solid lightgreen;
+  background-color:byakurose;
   padding:5px;
   width:100px;
   text-align:center;
 }
 
 td{
-  border:1px solid lightcoral;
+  border:1px solid lightgreen;
   padding:5px;
   width:80px;
   text-align:right;
@@ -84,17 +84,13 @@ caption{
   padding:5px;
 }
 
-#price{
-  background-color:lightyellow;
-}
-
 thead th,tfoot th{
   background-color:white;
 }
 
 thead td{
   color:white;
-  background-color:lightcoral;
+  background-color:lightgreen;
   text-align:center;
 }
 
