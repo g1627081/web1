@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
- <meta charset="UTF-8">
- <title>数当てゲーム</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/default.css" type="text/css">
+   <title>シュウマイの作り方</title>
 </head>
- <body>
-     <p id="choice">'Wow Wow'</p>
-     <script type="text/javascript" src="js/default.js"></script>
- </body>
+  <body>
+   <article id="main">
+      <p>コンビに行きます</p>
+      <section class="syumai_picture">
+       <img src="./img/syumai.jpg" alt="出来立てシュウマイ"width=300 class="photo">
+           <dl class="explanation">
+            <dt>種類:</dt><dd>ノーマルシュウマイ</dd>
+            <dt>特徴:</dt><dd>ほくほく</dd>  
+          </dl>
+         </section>
+      <section="new">
+      <table id="ingredient">
+                 <caption>シュウマイの材料</caption>
+                 <colgroup id="name"/>
+                 <colgroup id="amout"/>
+                 <colgroup id="price"/>
+               <thead>
+                       <tr><th></th><td>分量</td><td>値段</td></tr>
+               </thead>
+               <tbody>
+                 <tr><th>豚ひき肉</th><td>500g</td><td>300円</td></tr> 
+                 <tr><th>干しシイタケ</th><td>5個</td><td>200円</td></tr>   
+                 <tr><th>しょうが</th><td>１片</td><td>100円</td></tr>   
+                 <tr><th>片栗粉</th><td>大さじ１</td><td>200円</td></tr>   
+                 <tr><th>シュウマイの皮</th><td>30枚</td><td>200円</td></tr>   
+                </tbody>
+                    <tfoot>
+                       <tr><th>合計</th><td></td><td>1000円</td></tr>
+                     </tfoot>
+              </table>
+      <input type="submit" value="ok" class="btn btn-submit">
+     <input type="reset" value="リセット" class="btn btn-reset">
+         </section>
+      </article>
+     
+   </body>
 </html>
+
+
+
