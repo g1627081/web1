@@ -1,8 +1,10 @@
+
 @charset "UTF-8"; 
 body{
   background-color:#39d600;
 }
 p{
+ text-align: center;
  padding:5px; 
 }
 #main{
@@ -107,7 +109,6 @@ tfoot td{
   background-color:white;
 }
 h2{
-  clear:center;
-  float:center;
+ text-align: center;
   padding:5px;
 }
