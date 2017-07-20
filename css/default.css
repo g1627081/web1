@@ -13,6 +13,7 @@ body{
 .explanation{
   float:left;
   width:468px;
+  border:blue 1px solid;
 }
 .photo{
   float:left;
