@@ -1,4 +1,4 @@
-@charset "UTF-8"; 
+charset "UTF-8"; 
 body{
   background-color:#39d600;
 }
@@ -11,6 +11,15 @@ body{
   background-color:white;
 }
 
+.box{
+  background-color:skyblue;
+  color:black;
+  width:240px;
+  height:80px;
+  margin:5px;
+  float:left;
+  overflow:hidden;
+}
 .photo{
   float:left;
   margin-right:30px;
